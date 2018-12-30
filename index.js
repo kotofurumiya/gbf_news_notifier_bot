@@ -23,7 +23,8 @@ discordClient.on('ready', () => {
   });
 
   // 監視開始
-  newsWatcher.startWatch().then(() => console.log('Start watching...'));
+  newsWatcher.startWatch({ intervalMs: config.network.checkIntervalMs })
+             .then(() => console.log('Start watching...'));
 });
 
 // discordにログイン
