@@ -4,6 +4,6 @@ module.exports = {
     targetChannelName: 'general'
   },
   network: {
-    checkIntervalMs: 3 * 60 * 1000
+    checkIntervalMs: 10 * 60 * 1000
   }
 };
