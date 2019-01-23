@@ -55,16 +55,6 @@
     * スクリプトを実行してからinstallすると新しいのが入る
       * 以下に書いてあるコマンド実行するだけ
       * https://github.com/nodesource/distributions/blob/master/README.md
-      
-* Linuxの場合
-  * 内部的に使用しているChromeがそのままでは動作しない
-  * CentOS, Debian（Ubuntu）の依存パッケージは公式ドキュメントに書いてあるので全部入れる
-    * https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md
-  * 例えばCentOSなら以下のコマンドで依存関係入れる
-  
-```
-yum -y install libX11 libXcomposite libXcursor libXdamage libXext libXi libXtst cups-libs libXScrnSaver libXrandr alsa-lib pango atk at-spi2-atk gtk3 
-```
 
 * pm2のインストール
   * Node.jsのプログラムを常駐させるやつ
