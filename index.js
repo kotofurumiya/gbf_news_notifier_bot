@@ -7,7 +7,7 @@ const newsWatcher = new OfficialNewsWatcher();
 const discordClient = new Discord.Client();
 
 // discordにログイン成功時
-discordClient.on('ready', () => {
+discordClient.once('ready', () => {
   console.log('Connected to Discord successfully!');
 
   // サーバのことをguildというらしい
