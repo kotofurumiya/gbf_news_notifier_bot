@@ -9,7 +9,7 @@
   "author": "Koto Furumiya <kotofurumiya@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "discord.js": "^11.4.2",
     "jsdom": "^13.1.0"
   }
