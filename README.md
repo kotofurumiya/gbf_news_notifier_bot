@@ -1,3 +1,10 @@
+# Deprecated
+
+このソフトは開発終了しました。かわりに以下のURLよりSierokarteを使用してください。
+機能は同等です。
+
+https://github.com/cielspada/sierokarte
+
 # グラブルニュース通知bot
 
 Discordにグラブルの公式ニュースを通知するbotです。
